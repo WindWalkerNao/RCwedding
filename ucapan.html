@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Undangan Untuk Anda</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial;
+            background: #f4f4f4;
+            padding-top: 100px;
+        }
+        .box {
+            background: white;
+            padding: 40px;
+            width: 80%;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <audio controls autoplay loop hidden>
+        <source src="music/bgm.mp3" type="audio/mpeg">
+    </audio>
+
+<div class="box">
+    <h1 id="judul"></h1>
+    <p id="isiKomentar"></p>
+</div>
+
+<script>
+    let nama = localStorage.getItem("namaTamu");
+    let komentar = localStorage.getItem("komentarTamu");
+
+    document.getElementById("judul").innerHTML = 
+        "Kepada Yth. <br><strong>" + nama + "</strong>";
+
+    document.getElementById("isiKomentar").innerHTML =
+        "Terima kasih atas ucapan Anda: <br><br><em>" + komentar + "<br><br></em>Kami mengundang anda untuk datang ke acara pernikahan kami";
+</script>
+
+</body>
+</html>

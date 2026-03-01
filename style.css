@@ -1,0 +1,354 @@
+:root {
+  --pink: #f14495;
+  --bg: #0a0a0a;
+  --shadow: 0 3px 3px rgb(0 0 0 / 0.5);
+}
+
+body {
+    font-size: 1.2rem;
+    font-family: "Work Sans", sans-serif;
+    min-height: 2000px;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/bg-prewed.jpeg);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.hero {
+    position: relative;
+    min-height: 100vh;
+}
+
+.hiro::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/giyu.png);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.hiro {
+    position: relative;
+    min-height: 100vh;
+}
+
+.haro::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/zenitsu.jpeg);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.haro {
+    position: relative;
+    min-height: 100vh;
+}
+
+.huro::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/nezuko.jpeg);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.huro {
+    position: relative;
+    min-height: 100vh;
+}
+
+.horo::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/shinobu.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.horo {
+    position: relative;
+    min-height: 100vh;
+}
+
+.hara::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/tanjirou.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.hara {
+    position: relative;
+    min-height: 100vh;
+}
+
+.hari::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/rengoku.jpeg);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.hari {
+    position: relative;
+    min-height: 100vh;
+}
+
+.formUndangan::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/bg-prewed.jpeg);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.formUndangan {
+    position: relative;
+    min-height: 100vh;
+}
+
+.hero h1, .hero h5, .hero h6, .hero p {
+    text-shadow: var(--shadow);
+    color: #ffd27f;
+}
+
+.hero h1 {
+    font-family: "Mea Culpa", cursive;
+    font-size: 6rem
+}
+
+.hero h4 {
+    font-size: 2rem;
+    color: red;
+    text-shadow: var(--shadow);
+}
+
+.hero p {
+    font-size: 3rem;
+}
+
+.hero a {
+    color: var(--pink);
+    background-color:white;
+}
+
+.hero a:hover {
+    background-color: var(--pink);
+    color:white;
+}
+
+h5{
+    font-size: 4rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.timebox{
+    display: flex;
+    justify-content: center;   /* posisi horizontal ke tengah */
+    align-items: center;       /* posisi vertical */                /* jarak antar kotak */
+    margin-top: 20px;
+    gap: 90px;
+}
+
+.time{
+    text-align: center;
+}
+
+.hiro p {
+    font-size: 3rem;
+}
+
+.hiro h4 {
+    font-size: 4rem;
+}
+
+.hiro h1 {
+    font-size: 4rem;
+}
+
+.hiro h1, .hiro h4, .hiro h5, .hiro h6, .hiro p {
+    text-shadow: var(--shadow);
+    color: white;
+
+}
+
+.haro p {
+    font-size: 3rem;
+}
+
+.haro h4 {
+    font-size: 4rem;
+}
+
+.haro h1 {
+    font-size: 4rem;
+}
+
+.haro h1, .haro h4, .haro h5, .haro h6, .haro p {
+    text-shadow: var(--shadow);
+    color: #4a2c1e;
+
+}
+
+.huro p {
+    font-size: 3rem;
+}
+
+.huro h4 {
+    font-size: 4rem;
+}
+
+.huro h1 {
+    font-size: 4rem;
+}
+
+.huro h1, .huro h4, .huro h5, .huro h6, .huro p {
+    text-shadow: var(--shadow);
+    color: #1a1a1a;
+
+}
+
+.horo p {
+    font-size: 3rem;
+}
+
+.horo h4 {
+    font-size: 4rem;
+}
+
+.horo h1 {
+    font-size: 4rem;
+}
+
+.horo h1, .horo h4, .horo h5, .horo h6, .horo p {
+    color: #ffffff;
+    text-shadow: 3px 3px 7px rgba(0,0,0,0.9);
+
+}
+
+.hara p {
+    font-size: 3rem;
+}
+
+.hara h4 {
+    font-size: 4rem;
+}
+
+.hara h1 {
+    font-size: 4rem;
+}
+
+.hara h1, .hara h4, .hara h5, .hara h6, .hara p {
+    color: #ffffff;
+    text-shadow: 3px 3px 7px rgba(0,0,0,0.9);
+}
+
+.hari p {
+    font-size: 3rem;
+}
+
+.hari h4 {
+    font-size: 4rem;
+}
+
+.hari h1 {
+    font-size: 4rem;
+}
+
+.hari h1, .hari h4, .hari h5, .hari h6, .hari p {
+    color: #333333;
+    text-shadow: 3px 3px 7px rgba(0,0,0,0.9);
+}
+
+#floatingButtons {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 9999;  /* PENTING! Supaya tidak tertutup elemen lain */
+}
+
+#floatingButtons button {
+  padding: 10px 16px;
+  border: none;
+  background: #333;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#floatingButtons button:hover {
+  background: #555;
+}
+
+/* Media Query */
+/* laptop */
+@media (max-width: 992px) {
+    html{
+        font-size: 75%;
+    }
+}
+
+/* tablet */
+@media (max-width: 768px) {
+     html{
+        font-size: 65%;
+    }
+}
+
+/* mobile phone */
+@media (max-width: 575px) {
+     html{
+        font-size: 60%;
+    }
+}

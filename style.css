@@ -349,19 +349,19 @@ h5{
 /* mobile phone */
 @media (max-width: 575px) {
      html{
-        font-size: 40%;
+        font-size: 20%;
     }
 }
 
 @media (max-height: 700px) {
     html {
-        font-size: 55%;
+        font-size: 40%;
     }
 }
 
 @media (max-height: 600px) {
     html {
-        font-size: 50%;
+        font-size: 30%;
     }
 }
 

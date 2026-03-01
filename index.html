@@ -22,9 +22,13 @@
         <button onclick="stopScroll()">Stop AutoScroll</button>
     </div> 
 
-    <audio controls autoplay loop hidden>
-        <source src="music/Akaza.mp3" type="audio/mpeg">
-    </audio>
+   <audio id="bgm" loop>
+     <source src="music/akaza.mp3" type="audio/mpeg">
+   </audio>
+
+<button onclick="document.getElementById('bgm').play()">
+  🎵 Play Musik
+</button>
 
     <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-black" data-aos="fade-up">
         <main>
@@ -276,3 +280,4 @@
   </body>
 
 </html>
+

@@ -365,3 +365,28 @@ h5{
     }
 }
 
+@media (max-width: 575px) {
+    section {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+section {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+h1, h4, p {
+    word-wrap: break-word;
+    max-width: 100%;
+}
+
+
+

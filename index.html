@@ -18,12 +18,13 @@
 
   <body>
     <div id="floatingButtons">
+        <button onclick="playMusic()">🎵 Play Music</button>
         <button onclick="startScroll()">Start AutoScroll</button>
         <button onclick="stopScroll()">Stop AutoScroll</button>
     </div> 
 
-    <audio controls autoplay loop hidden>
-        <source src="music/Akaza.mp3" type="audio/mpeg">
+    <audio id="bgm" loop>
+        <source src="music/akaza.mp3" type="audio/mpeg">
     </audio>
 
     <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-black" data-aos="fade-up">
@@ -273,6 +274,13 @@
         clearInterval(scrollInterval);
     }
     </script>  
+
+    <script>
+    function playMusic() {
+        const audio = document.getElementById("bgm");
+        audio.play();
+    }
+    </script>
 
   </body>
 </html>
